@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete User Data - JollyRead</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="icon" href="images/_icon_full.png">
+</head>
+<body>
+    <div class="container">
+
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/_icon_full.png" alt="JollyRead"></a> 
+            </div>
+            <h1>JollyRead</h1>
+
+        </div>
+    
+            <h2>Delete User Data</h2>
+            <form>
+                <div class="inputBox">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="inputBox">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" name="password" placeholder="Password" required>
+                </div>
+                <div class="confirm">
+                    <input type="checkbox" name="confirm" placeholder="confirm" required>
+                    <label for="confirm">I acknowledge that this action is irreversible.</label>
+                </div>
+                <input type="submit" value="Delete" id="delete">
+            </form>
+    </div>
+    <script src="/index.js" async defer>
+</script>   
+</body>
+</html>

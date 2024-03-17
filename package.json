@@ -1,0 +1,14 @@
+{
+  "name": "firebase_data_delete",
+  "version": "1.0.0",
+  "description": "website for deleting user data on firebase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "raufun ahsan",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^10.9.0"
+  }
+}
